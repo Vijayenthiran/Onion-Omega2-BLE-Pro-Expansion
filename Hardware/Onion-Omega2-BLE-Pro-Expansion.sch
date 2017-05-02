@@ -5230,6 +5230,11 @@ SMT- SWCH-08247</description>
 <wire x1="2.54" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="2.54" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="76.2" y1="109.22" x2="76.2" y2="116.84" width="0.1524" layer="94" style="dashdot"/>
+<text x="30.48" y="86.36" size="1.4224" layer="94">TODO:
+1. SPI Port
+2. I2C Port
+3. Make the PCB Breadboard compatible
+</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="22.86" y="175.26" rot="R180"/>
@@ -6154,4 +6159,10 @@ SMT- SWCH-08247</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
