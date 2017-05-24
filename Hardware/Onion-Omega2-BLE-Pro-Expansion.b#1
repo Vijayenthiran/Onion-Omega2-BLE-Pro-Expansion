@@ -293,7 +293,7 @@
 <wire x1="15.1" y1="32.775" x2="19.625" y2="32.775" width="0.127" layer="26"/>
 <wire x1="19.625" y1="32.775" x2="19.625" y2="33.875" width="0.127" layer="26"/>
 <text x="41.375" y="25.325" size="0.8128" layer="25">GND</text>
-<text x="40.225" y="22.975" size="0.6096" layer="25">CTS/RTS</text>
+<text x="41.625" y="22.925" size="0.8128" layer="25">CTS</text>
 <text x="41.5" y="20.4" size="0.8128" layer="25">VCC</text>
 <text x="42.3" y="17.825" size="0.8128" layer="25">TX</text>
 <text x="42.3" y="15.375" size="0.8128" layer="25">RX</text>
@@ -1094,7 +1094,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C4" library="SparkFun-Passives" package="1206" value="10uF" x="20.2" y="20.81" rot="R90"/>
 <element name="C5" library="SparkFun-Passives" package="1206" value="100nF" x="38.97" y="22.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="40.038" y="20.745" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="40.138" y="22.845" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="37.446" y="23.597" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C6" library="SparkFun-Passives" package="1206" value="100nF" x="22.52" y="20.78" rot="R270"/>

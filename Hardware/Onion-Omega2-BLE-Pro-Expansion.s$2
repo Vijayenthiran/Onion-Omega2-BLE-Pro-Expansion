@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5335,7 +5335,6 @@ SMT- SWCH-08247</description>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD-W"/>
 <part name="F2" library="SparkFun-PowerIC" deviceset="PTC" device="SMD-W"/>
-<part name="CTS/RTS" library="jumper" deviceset="SJ2W" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5448,7 +5447,6 @@ SMT- SWCH-08247</description>
 <instance part="SUPPLY14" gate="G$1" x="40.64" y="53.34"/>
 <instance part="F1" gate="G$1" x="30.48" y="119.38"/>
 <instance part="F2" gate="G$1" x="33.02" y="172.72"/>
-<instance part="CTS/RTS" gate="G$1" x="248.92" y="137.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6170,10 +6168,9 @@ SMT- SWCH-08247</description>
 <label x="241.3" y="149.86" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CTS/RTS" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="132.08" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="129.54" x2="254" y2="129.54" width="0.1524" layer="91"/>
-<label x="254" y="129.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="111.76" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
+<label x="261.62" y="111.76" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -6286,21 +6283,6 @@ SMT- SWCH-08247</description>
 <pinref part="U$1" gate="G$1" pin="RTS"/>
 <wire x1="238.76" y1="162.56" x2="241.3" y2="162.56" width="0.1524" layer="91"/>
 <label x="241.3" y="162.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CTS/RTS" gate="G$1" pin="3"/>
-<wire x1="248.92" y1="142.24" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="147.32" x2="254" y2="147.32" width="0.1524" layer="91"/>
-<label x="254" y="147.32" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="CTS/RTS" gate="G$1" pin="2"/>
-<wire x1="254" y1="137.16" x2="271.78" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="137.16" x2="271.78" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
