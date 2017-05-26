@@ -1,0 +1,7 @@
+Hardware/Onion-Omega2-BLE-Pro-Expansion.s#*
+Hardware/Onion-Omega2-BLE-Pro-Expansion.s$*
+Hardware/Onion-Omega2-BLE-Pro-Expansion.b#*
+Hardware/Onion-Omega2-BLE-Pro-Expansion.b$*
+Hardware/*.job
+Hardware/*.pro
+.DS_Store
