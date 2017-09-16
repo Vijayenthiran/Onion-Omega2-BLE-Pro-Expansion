@@ -1,5 +1,7 @@
 ## Onion Omega 2 BLE Pro Expansion Board
 
+<img src="Images/Onion-Omega2-BLE-Pro-Expansion.jpg" alt="Onion-Omega2-BLE-Pro-Expansion" />
+
 [Onion Omega 2](https://onion.io/omega2/) is a $5 Linux computer with Wifi support. It is great for developing Internet of Things (IoT) applications. Unfortunately, the board cannot be powered directly as there is no option for USB power. Also, it uses 2 mm pitch headers which makes it impossible to use with a regular breadboard without any converter/expansion board. Even after powering the Omega 2, accessing the terminal should be done through wifi. All these problems make Omega 2 less easy to get started. 
 
 This expansion board addresses the above-mentioned issues with some additional features at a very low cost compared to the expansion boards [available](https://onion.io/product-category/docks/) from Onion Crop directly. 
@@ -21,7 +23,7 @@ This expansion board addresses the above-mentioned issues with some additional f
 - Plug your Onion Omega 2 into the 2.00mm header. Make sure you plug in the correct orientation (Onion Logo should face the USB port).
 - Get to know how to access USB Serial devices. Here are some recommended articles: [Windows](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-windows) | [Linux](https://stackoverflow.com/a/6719367) | [Mac](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-mac-os-x)
 - Open the Serial Console and wait for some time (usually 2 to 3 mins) for the Omega 2 to boot up. You will see a lot of messages like this:
-  ![Omega 2 Serial Console]()
+  <img src="Images/Omega 2 Boot up messages.jpg" alt="Omega 2 Boot up messages" />
 - Press Enter key twice. You are good to go. Head over to [Onion Omega 2 Documentation page](https://docs.onion.io/omega2-docs/connecting-to-the-omega-terminal.html#connecting-to-the-omega-terminal-serial) for more information. 
 
 **RGB LED demo**:
@@ -30,7 +32,7 @@ This expansion board addresses the above-mentioned issues with some additional f
 - Type `vi RGBDemo.py` and press `i` key.
 - Copy paste this code:
 ```
-      import onionGpio
+    import onionGpio
     # for delay
     import time
 
